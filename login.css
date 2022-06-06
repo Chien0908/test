@@ -1,0 +1,357 @@
+body{
+    background-color: rgb(42, 42, 42);
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.main{
+    
+    width: 100%;
+}
+.head{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*================================   HEADR TOP    =====================================*/
+.top-header{
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    background-color: #ffd715;
+    border-radius: 5px;
+    padding-left: 0px;
+}
+.top-header ul{
+    width: 100%;
+    margin: auto;
+    list-style: none;
+    margin-top: 0px;
+    padding-left: 0;
+    
+}
+.top-header ul li{
+    
+    display: inline-block ;
+    padding-left: 0px;
+    padding-left: 40px;
+    
+}
+.top-header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.top-header ul li a img{
+    vertical-align: middle;
+}
+.logo img{
+    border-radius: 5px;
+    margin-right: -20px;
+    font-size-adjust: 50px 50px;
+}
+.search{
+    height: 44px;
+    width: 370px;
+    background-color: white;
+    border-radius: 5px;
+}
+.search input{
+    width: 300px;
+    height: 40px;
+    border: 0;
+    padding-left: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.search button{
+    height: 35px;
+    border: 0px;
+}
+
+/*================================   HEADR MID    =====================================*/
+.mid-header{
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    
+    border-radius: 5px;
+}
+.mid-header ul {
+    width: 100%;
+    margin: auto;
+    list-style: none;
+    margin-top: 0px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-left: 0px;
+    padding-left: 0;
+}
+.mid-header ul li {
+    display: inline-block ;
+    padding-left: 20px;
+    padding: 10px;
+}
+.mid-header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-left: 60px;
+}
+/*================================   HEADR BOTTOM    =====================================*/
+
+.bottom-header{
+    display:inline;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+.bottom-header ul{
+    width: 100%;
+    margin: auto;
+    list-style: none;
+    margin-top: 5px;
+    padding: 0;
+}
+.bottom-header ul li{
+    display: inline-block ;
+    padding-left: 19px;
+    margin: 0px;
+    height: 70px;
+    border: 1px solid rgb(79, 77, 77);
+    border-radius: 5px;
+}
+.bottom-header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    border: 0px;
+    color: white;
+    padding-left: 10px;
+    font-weight: bold;
+    
+}
+.bottom-header ul li a p{
+    margin: 0px;
+    padding-right: 15px;
+}
+.bottom-header ul li a:hover{
+    
+    color: rgb(207, 39, 39);
+}
+.menu  {
+    background-color: #ffd715;
+    text-align: center;
+ 
+}
+/*================================   CONTENT LOGIN    =====================================*/
+.content{
+    width: 1000px;
+    color: white;
+    margin: 0 auto;
+}
+div{
+    display: block;
+}
+.login-title {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr    ;
+    column-gap: 20px; 
+    padding-top: 15px;
+    
+}
+.login-title h1{
+    font-size: 22px;
+    font-weight: 400;
+    width: 500px;
+}
+.login-other a{
+    color: aquamarine;
+    text-decoration: none;
+}
+.mod-login{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 3fr 2fr    ;
+    column-gap: 25px;
+    padding-top: 15px; 
+    padding-bottom: 30px;
+    background-color: #202c43;
+}
+/*right*/
+.mod-login-left{
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto    ;
+    grid-template-rows: auto   auto ;
+    row-gap: 10px; 
+    padding-top: 15px;
+}
+.login-bt button{
+    background-color:#ffd715 ;
+    height: 50px;
+    width: 300px;
+    border-radius: 3px;
+    line-height: 40px;
+    border: 0;
+    font-weight: bold;
+    color: white;
+}
+.login-app{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto    ;
+    grid-template-rows: auto auto  ;
+    row-gap: 10px; 
+    padding-top: 15px
+}
+.login-app p{
+    margin: 0;
+}
+.login-app-facebook button{
+    background-color: #3b5998;
+    height: 50px;
+    width: 300px;
+    border-radius: 3px;
+    line-height: 40px;
+    border: 0;
+    font-weight: bold;
+    color: white;
+}
+.login-app-google button{
+    background-color: #d34836;
+    height: 50px;
+    width: 300px;
+    border-radius: 3px;
+    line-height: 40px;
+    border: 0;
+    font-weight: bold;
+    color: white;
+}
+/*left*/
+.login-input-password{
+    padding-left: 40px;
+}
+.login-input-password p{
+    margin: 10px;
+}
+.login-input-password input{
+    height: 45px;
+    width: 500px;
+    border-radius: 5px;
+    border: 0;
+    padding-left: 20px;
+
+}
+.login-forgot a{
+    color: #049cb9;
+    text-decoration: none;
+    float: right;
+    padding-top: 30px;
+}
+/*================================================ content-1=============================*/
+.content-1{
+    background-color: #202c43;
+    height: 150px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 40px;
+}
+.search-3{
+    height:50px ;
+    width: 500px;
+    background-color: white;
+    margin:15px auto;
+    border-radius:6px ;
+    
+}
+.search-3 input{
+    height:40px ;
+    width: 400px;
+    vertical-align: middle;
+    border-radius: 6px;
+    border: 0;
+}
+.search-3 button{
+    height:50px ;
+    width: 88px;
+    border: 0;
+    background-color: #d00306;
+    right: 0;
+    border-radius: 6px;
+}
+
+/*================================================ footer=============================*/
+.footer{
+    color: white;
+    
+}
+.cach{
+    height: 50px;
+}
+.cach1{
+    height: 30px;
+}
+/*================================    mid footer    =======================================*/
+.mid-footer{
+    background-color: #d00306;
+
+}
+.mid-footer-in{
+    padding: 0;
+    width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr 2fr  ;
+    column-gap: 10px; 
+    padding-top: 15px;
+    
+    
+}
+.search-2{
+    height: 52px;
+    width: 330px;
+    background-color: white;
+    border-radius: 5px;
+}
+.search-2 input{
+    width: 260px;
+    height: 40px;
+    border: 0px;
+    padding-left: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.search-2 button{
+    height: 35px;
+    border: 0px;
+}
+.ab ul{
+    list-style: none;
+    
+}
+/*================================    bottom footer    =======================================*/
+.bottom-footer{
+    background-color: black;
+}
+.bottom-footer-in{
+    padding: 0;
+    width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr ;
+    column-gap: 10px; 
+    padding-top: 15px;
+}
+.abc ul{
+    list-style: none;
+}
+.abc ul p{
+    color: #ffd715;
+}
